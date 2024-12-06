@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className=' mt-[4rem] flex justify-between bg-bgGrey w-full py-[4rem] px-[2rem] '>
+    <div className=' mt-[4rem]  flex justify-between flex-wrap gap-[4rem] bg-bgGrey w-full py-[4rem] px-[2rem] '>
       <div className=' flex flex-col gap-[1.5rem]'>
         <h1 className=' font-semibold text-lg'>CONTACTS</h1>
       <div className=' flex flex-col gap-[.5rem] '>
