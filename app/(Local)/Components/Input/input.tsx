@@ -1,9 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
-export default function Input({img, id, name, type, placeholder}:{img:string, name:string, type:string, placeholder:string, id:string}) {
+export default function Input({src, id, name, type, placeholder}:{src:string, name:string, type:string, placeholder:string, id:string}) {
   return (
     <div className="flex items-center rounded-xl bg-bgGrey pl-3 outline outline-1 -outline-offset-1 outline-gray-100 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600 ">
-    <img alt='..' src={img}/>
+    <Image alt='..' src={`${src}`} width={20} height={20}/>
+
     <input
       id={id}
       name={name}

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function CardDelivery() {
@@ -7,7 +8,7 @@ export default function CardDelivery() {
   <span className=' text-linear font-bold'>01</span>
   <div className=' bg-bgGrey p-[2rem] rounded-tl-rounded rounded-br-rounded h-[12rem]'>
   <div className=' flex items-center gap-[.5rem]'>
-          <img alt='.'  src='/Group.png'/>
+  <Image alt='..' src='/Group.png' width={35} height={35}/>
           <h1 className=' text-grey font-semibold'>Delivery</h1>  
   </div>
       <div className=' ms-[3rem]'>
@@ -21,7 +22,7 @@ export default function CardDelivery() {
   <span className=' text-linear font-bold'>02</span>
   <div className=' bg-bgGrey p-[2rem] rounded-tl-rounded rounded-br-rounded h-[12rem]'>
   <div className=' flex items-center gap-[.5rem]'>
-          <img alt='.'  src='/sedan 1.png'/>
+  <Image alt='..' src='/sedan 1.png' width={35} height={35}/>
           <h1 className=' text-grey font-semibold'>Pickup</h1>  
   </div>
       <div className=' ms-[3rem]'>
@@ -33,7 +34,7 @@ export default function CardDelivery() {
   <span className=' text-linear font-bold'>03</span>
   <div className=' bg-bgGrey p-[2rem] rounded-tl-rounded rounded-br-rounded h-[12rem]'>
   <div className=' flex items-center gap-[.5rem]'>
-          <img alt='.'  src='/icon2.png'/>
+  <Image alt='..' src='/icon2.png' width={35} height={35}/>
           <h1 className=' text-grey font-semibold'>All over the world</h1>  
   </div>
       <div className=' ms-[3rem]'>

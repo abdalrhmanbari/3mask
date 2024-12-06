@@ -1,6 +1,7 @@
 import Button from '@/app/(Local)/Components/Button/button'
 import CardFamous from '@/app/(Local)/Components/Card/card-famous'
 import CartFamous from '@/app/(Local)/Components/Card/cart-famous'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -18,10 +19,12 @@ export default function Famous() {
       <CardFamous title={'Made in Great Britain (UK)'} disc={'Highest quality products from a world-famous brand.'}/>
       <CardFamous title={'FFP2 and FFP3'} disc={'Our respirators have valves with the highest levels of protection. Purification of inhaled air up to 99%.'}/>
         </div>
-      <img alt='..' src='/ffb2.png'/>
+        <Image alt='..' src={"/ffb2.png"} width={400} height={400}/>
       </div>
       <div className=' flex  flex-col md:flex-row justify-between items-center gap-[2rem]'>
-      <img alt='..' src='/ffb2(1).png'/>
+
+               <Image alt='..' src={"/ffb2(1).png"} width={400} height={400}/>
+
         <div className=' flex flex-col gap-[1rem]'>
       <CardFamous title={'Work under contract'} disc={'We conclude an agreement for the supply of products to institutions in need.'}/>
       <CardFamous title={'Always in stock'} disc={'Our own warehouse guarantees product availability and pick-up for our customers.'}/>
@@ -44,7 +47,7 @@ export default function Famous() {
         </div>
         </div>
         <div className=' sm:min-w-[18rem] lg:w-[30rem]   '>
-          <img alt='..' src='/c343c4c63ddd5623074f3e247601ef9f.jpeg' className=' w-full rounded-tl-[4rem] rounded-br-[4rem]'/>
+        <Image alt='..' src='/c343c4c63ddd5623074f3e247601ef9f.jpeg' width={500} height={500} className=' w-full rounded-tl-[4rem] rounded-br-[4rem]'/>
         </div>
       </div>
       <div>
