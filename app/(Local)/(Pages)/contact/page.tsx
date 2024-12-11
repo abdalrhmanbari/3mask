@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 export default function Contact() {
   return (
+    
     <div className='sm:mt-marginT mt-[2rem]'>
       <h1 className='text-4xl md:text-5xl font-semibold text-center mb-[6rem]'>Contact details</h1>
         <div className=' flex  gap-[4rem] justify-center flex-wrap'>

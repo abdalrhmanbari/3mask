@@ -31,7 +31,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className=" fixed  m-auto  border-b  top-0   sm:pe-[14rem] pe-[3rem] w-full bg-bgGrey z-[10]">
+    <header className="  m-auto  border-b  top-0     pe-[3rem]  bg-bgGrey z-[2]">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <Link href={"/"}  className='-m-1.5 p-1.5 uppercase text-3xl font-bold '><span className=' text-primary'>3m</span>ask</Link>
@@ -65,7 +65,7 @@ export default function Navbar() {
                 Contact
           </Link>
         </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
           <Link href="login" className="text-sm/6 font-semibold text-gray-900">
             Log in <span aria-hidden="true">&rarr;</span>
           </Link>

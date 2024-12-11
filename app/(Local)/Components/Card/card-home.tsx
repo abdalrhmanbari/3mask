@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 export default function CardHome({title, disc, icon}:{title:string, disc:string, icon?:string}) {
