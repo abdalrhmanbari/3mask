@@ -6,33 +6,12 @@ import { member } from '../../Types/types';
 import Input from '../../Components/Input/input';
 import Image from 'next/image';
 export default function LogIn() {
-  const initialValues:member =  {
-    name: "",
-    phone: "",
-    email: "",
-    password: "",
-  };
-  const onSubmit = (values: member) => {
-    console.log(values);
-  };
-  
-  const validationSchema = yup.object ( {
-    name: yup.string().required(`Required`),
-    phone: yup.number().required(`Required`),
-    email: yup.string().email(`Invalid email format`).required(`Required`),
-    password: yup.string().required(`Required`)
-  })
   const classOut="flex flex-col gap-[0.5rem] w-[20rem]"
   const classError= " text-red-600 text-sm  flex items-start"
   const classField="block min-w-0 grow py-2 pl-2 pr-3 text-base text-gray-900 bg-bgGrey placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6   "
   const classDiv= "flex items-center rounded-xl bg-bgGrey pl-3 outline outline-1 -outline-offset-1 outline-gray-100 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600  "
   return (
-    <Formik
-    initialValues={initialValues}
-    onSubmit={onSubmit}
-    validationSchema={validationSchema}
-    >
-      <Form>
+
         <div className=" flex items-center justify-center  my-[6rem] flex-col ">
             <div className=' flex flex-col gap-6'>
           <div className=' flex flex-col justify-center items-center text-center gap-2'>
@@ -80,7 +59,6 @@ export default function LogIn() {
         </div>
             </div>
         </div>
-      </Form>
-    </Formik>
+
   )
 }

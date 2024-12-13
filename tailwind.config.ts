@@ -24,7 +24,7 @@ export default {
         "paddingX":"2rem"
       },
       margin:{
-        "marginT":"9rem",
+        "marginT":"4rem",
       },
       borderRadius:{
           "rounded":"4rem"
