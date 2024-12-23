@@ -8,10 +8,10 @@ import Imag from '../../Components/Image/imag'
 
 export default  function Protection() {
   return (
-    <div  className=' pb-[2rem] mt-marginT'>
+    <div  className=' pb-[2rem] sm:mt-marginT  mt-[2rem]'>
         <div className=' flex justify-between flex-col md:flex-row pt-[2rem] gap-[4rem] mb-[6rem]'>
             <div className='  flex flex-col gap-[2rem]  '>
-                <h1 className='text-4xl md:text-6xl flex flex-col font-semibold text-grey '>Mask for COVID-19
+                <h1 className='text-4xl md:text-6xl flex flex-col font-semibold text-grey   '>Mask for COVID-19
                 <span>
                 Which one helps and which one harms?
                 </span>

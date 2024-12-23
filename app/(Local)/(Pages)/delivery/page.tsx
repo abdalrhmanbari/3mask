@@ -6,7 +6,7 @@ import Map from '../../Components/Component/map'
 export default function Delivery() {
   return (
     <div className=' sm:mt-marginT  mt-[2rem]'>
-        <h1 className='text-4xl md:text-5xl font-semibold mb-[6rem] text-center '>Delivery and pickup terms</h1>
+        <h1 className='text-4xl md:text-6xl font-semibold text-center text-grey mb-[2rem]'>Delivery and pickup terms</h1>
         <CardDelivery/>
         <Map/>
         </div>

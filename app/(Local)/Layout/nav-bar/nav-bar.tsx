@@ -53,7 +53,7 @@ export default function Navbar() {
             Catalog
           </Link>
           <Link href="/delivery" className="text-sm/6 font-semibold text-gray-900 uppercase">
-                Delivery
+          Delivery
           </Link>
           <Link href="/wholesale" className="text-sm/6 font-semibold text-gray-900 uppercase">
           WHOLESALE
@@ -98,6 +98,13 @@ export default function Navbar() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Catalog
+                </Link>
+                <Link
+                onClick={() => setMobileMenuOpen(false)}
+                  href="/delivery"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                >
+                 Delivery
                 </Link>
                 <Link
                                 onClick={() => setMobileMenuOpen(false)}

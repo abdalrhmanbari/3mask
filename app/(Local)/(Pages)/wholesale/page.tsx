@@ -9,10 +9,10 @@ import Imag from '../../Components/Image/imag'
 
 export default function Wholesale() {
   return (
-    <div className=' pb-[2rem] mt-marginT'>
+    <div className=' pb-[2rem] sm:mt-marginT  mt-[2rem]'>
         <div className=' flex  flex-col sm:flex-row justify-between mb-[10rem]'>
         <div className=' flex flex-col gap-[2rem]'>
-        <h1 className=' text-5xl md:text-6xl font-semibold'>Respirators wholesale
+        <h1 className=' text-4xl md:text-6xl font-semibold   text-grey '>Respirators wholesale
         with discount up to 50%
         </h1>
         <p className=' text-pattern'>And delivery on the day of order.</p>
